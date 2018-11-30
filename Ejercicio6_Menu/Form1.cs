@@ -25,9 +25,16 @@ namespace Ejercicio6_Menu
 
         private void toolStripMenuItem11_Click(object sender, EventArgs e)
         {
+            //creo el objeto del formulario de la suma 
             FormSuma formSuma = new FormSuma();
-
-            formSuma.Show();
+            //muestro el segundo form (la opcion ShowDialog impide clickar en otra ventana)
+            formSuma.ShowDialog();
+            //muestro el primer form
+            Show();
+            //cierro el formulario de la suma
+            formSuma.Close();
         }
+
+        
     }
 }
