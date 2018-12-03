@@ -38,7 +38,7 @@ namespace Ejercicio6_Menu
 
         public static void imprimirTexto(string texto)
         {
-            MessageBox.Show("El texto introducido es: " + texto);
+            MessageBox.Show("El texto introducido es: " + texto, "Imprimir");
         }
       
     }
