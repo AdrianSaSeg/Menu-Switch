@@ -16,6 +16,8 @@ namespace Ejercicio6_Menu
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new FormLogin());
+            Application.Run(new FormBanner());
             Application.Run(new Form1());
          
 

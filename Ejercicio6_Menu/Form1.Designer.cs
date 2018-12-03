@@ -82,7 +82,7 @@
             this.toolStripMenuItem12,
             this.cálculoVolúmenToolStripMenuItem});
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(128, 22);
             this.toolStripMenuItem5.Text = "Funciones";
             // 
             // toolStripMenuItem10

@@ -58,5 +58,10 @@ namespace Ejercicio6_Menu
 
             formImprimir.Close();
         }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+
+        }
     }
 }
