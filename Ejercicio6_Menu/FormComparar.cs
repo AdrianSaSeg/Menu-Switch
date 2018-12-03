@@ -8,27 +8,22 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 namespace Ejercicio6_Menu
 {
-    public partial class FormSuma : Form
+    public partial class FormComparar : Form
     {
-        public FormSuma()
+        public FormComparar()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
             int numero1 = int.Parse(textBox1.Text);
             int numero2 = int.Parse(textBox2.Text);
 
-            MessageBox.Show("La suma de los números es: " + Convert.ToString(Funciones.suma(numero1, numero2)), "Suma");
-        }
-
-        public void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
+            MessageBox.Show("El mayor numero es: "+ Convert.ToString(Funciones.MayorMenor(numero1, numero2)), "Comparación");
         }
     }
 }

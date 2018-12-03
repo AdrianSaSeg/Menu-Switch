@@ -35,6 +35,16 @@ namespace Ejercicio6_Menu
             formSuma.Close();
         }
 
-        
+        private void toolStripMenuItem10_Click(object sender, EventArgs e)
+        {
+            //creo el objeto del formulario de la comparación
+            FormComparar formComparar = new FormComparar();
+            //muestro el segundo form (la opcion ShowDialog impide clickar en otra ventana)
+            formComparar.ShowDialog();
+            //muestro el primer form
+            Show();
+            //cierro el formulario de la comparación
+            formComparar.Close();
+        }
     }
 }
