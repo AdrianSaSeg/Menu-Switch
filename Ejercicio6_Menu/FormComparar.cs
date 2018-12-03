@@ -22,8 +22,15 @@ namespace Ejercicio6_Menu
             
             int numero1 = int.Parse(textBox1.Text);
             int numero2 = int.Parse(textBox2.Text);
-
-            MessageBox.Show("El mayor numero es: "+ Convert.ToString(Funciones.MayorMenor(numero1, numero2)), "Comparación");
+            
+            if (Funciones.MayorMenor(numero1, numero2) != 0)
+            {
+                MessageBox.Show("El mayor numero es: " + Convert.ToString(Funciones.MayorMenor(numero1, numero2)), "Comparación");
+            }
+            else
+            {
+                MessageBox.Show("Los números son iguales", "Comparación");
+            }
         }
     }
 }

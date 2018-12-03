@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Ejercicio6_Menu
 {
@@ -37,7 +38,7 @@ namespace Ejercicio6_Menu
 
         public static void imprimirTexto(string texto)
         {
-
+            MessageBox.Show("El texto introducido es: " + texto);
         }
       
     }

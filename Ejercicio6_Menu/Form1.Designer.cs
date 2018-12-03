@@ -36,6 +36,7 @@
             this.toolStripMenuItem10 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem12 = new System.Windows.Forms.ToolStripMenuItem();
+            this.cálculoVolúmenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,7 +79,8 @@
             this.toolStripMenuItem5.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem10,
             this.toolStripMenuItem11,
-            this.toolStripMenuItem12});
+            this.toolStripMenuItem12,
+            this.cálculoVolúmenToolStripMenuItem});
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
             this.toolStripMenuItem5.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem5.Text = "Funciones";
@@ -102,6 +104,13 @@
             this.toolStripMenuItem12.Name = "toolStripMenuItem12";
             this.toolStripMenuItem12.Size = new System.Drawing.Size(199, 22);
             this.toolStripMenuItem12.Text = "Imprimir texto";
+            this.toolStripMenuItem12.Click += new System.EventHandler(this.toolStripMenuItem12_Click);
+            // 
+            // cálculoVolúmenToolStripMenuItem
+            // 
+            this.cálculoVolúmenToolStripMenuItem.Name = "cálculoVolúmenToolStripMenuItem";
+            this.cálculoVolúmenToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.cálculoVolúmenToolStripMenuItem.Text = "Cálculo volúmen";
             // 
             // Form1
             // 
@@ -129,6 +138,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem10;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem11;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem12;
+        private System.Windows.Forms.ToolStripMenuItem cálculoVolúmenToolStripMenuItem;
     }
 }
 

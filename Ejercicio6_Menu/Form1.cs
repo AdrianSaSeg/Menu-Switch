@@ -19,6 +19,7 @@ namespace Ejercicio6_Menu
 
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
+            //Para cerrar el formulario principal
             MessageBox.Show("Salir?", "Salir");
             Close();
         }
@@ -45,6 +46,17 @@ namespace Ejercicio6_Menu
             Show();
             //cierro el formulario de la comparación
             formComparar.Close();
+        }
+
+        private void toolStripMenuItem12_Click(object sender, EventArgs e)
+        {
+            FormImprimir formImprimir = new FormImprimir();
+
+            formImprimir.ShowDialog();
+
+            Show();
+
+            formImprimir.Close();
         }
     }
 }

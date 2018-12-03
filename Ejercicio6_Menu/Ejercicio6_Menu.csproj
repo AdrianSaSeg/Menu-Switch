@@ -58,6 +58,12 @@
     <Compile Include="FormComparar.Designer.cs">
       <DependentUpon>FormComparar.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormImprimir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormImprimir.Designer.cs">
+      <DependentUpon>FormImprimir.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSuma.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormComparar.resx">
       <DependentUpon>FormComparar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormImprimir.resx">
+      <DependentUpon>FormImprimir.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSuma.resx">
       <DependentUpon>FormSuma.cs</DependentUpon>
