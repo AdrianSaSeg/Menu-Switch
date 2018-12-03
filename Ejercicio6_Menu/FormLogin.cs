@@ -27,13 +27,18 @@ namespace Ejercicio6_Menu
             if (password == "Password")
             {
                 Form1 form1 = new Form1();
-                form1.ShowDialog();
                 Close();
+                form1.ShowDialog();   
             }
             else
             {
                 MessageBox.Show("La contraseña es incorrecta");
-            }
+            }           
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
