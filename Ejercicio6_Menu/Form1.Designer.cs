@@ -37,6 +37,7 @@
             this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem12 = new System.Windows.Forms.ToolStripMenuItem();
             this.cálculoVolúmenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.triánguloEquiláteroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -80,9 +81,10 @@
             this.toolStripMenuItem10,
             this.toolStripMenuItem11,
             this.toolStripMenuItem12,
-            this.cálculoVolúmenToolStripMenuItem});
+            this.cálculoVolúmenToolStripMenuItem,
+            this.triánguloEquiláteroToolStripMenuItem});
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(128, 22);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem5.Text = "Funciones";
             // 
             // toolStripMenuItem10
@@ -111,6 +113,14 @@
             this.cálculoVolúmenToolStripMenuItem.Name = "cálculoVolúmenToolStripMenuItem";
             this.cálculoVolúmenToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
             this.cálculoVolúmenToolStripMenuItem.Text = "Cálculo volúmen";
+            this.cálculoVolúmenToolStripMenuItem.Click += new System.EventHandler(this.cálculoVolúmenToolStripMenuItem_Click);
+            // 
+            // triánguloEquiláteroToolStripMenuItem
+            // 
+            this.triánguloEquiláteroToolStripMenuItem.Name = "triánguloEquiláteroToolStripMenuItem";
+            this.triánguloEquiláteroToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.triánguloEquiláteroToolStripMenuItem.Text = "¿Triángulo equilátero?";
+            this.triánguloEquiláteroToolStripMenuItem.Click += new System.EventHandler(this.triánguloEquiláteroToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -140,6 +150,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem11;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem12;
         private System.Windows.Forms.ToolStripMenuItem cálculoVolúmenToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem triánguloEquiláteroToolStripMenuItem;
     }
 }
 

@@ -41,5 +41,28 @@ namespace Ejercicio6_Menu
             MessageBox.Show("El texto introducido es: " + texto, "Imprimir");
         }
       
+        public static Boolean CalcularVolumen(double x, double y, double z)
+        {
+            if ((x * y * z) / 1000 <= 10000)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            } 
+        }
+
+        public Boolean TrianguloEquilatero (double x, double y, double z)
+        {
+            if ((x == y) && (x == z) && (y == z))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

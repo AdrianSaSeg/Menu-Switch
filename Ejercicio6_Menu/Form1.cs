@@ -59,5 +59,21 @@ namespace Ejercicio6_Menu
             formImprimir.Close();
         }
 
+        private void cálculoVolúmenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormVolumen formVolumen = new FormVolumen();
+
+            formVolumen.ShowDialog();
+
+            Show();
+
+            formVolumen.Close();
+
+        }
+
+        private void triánguloEquiláteroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
