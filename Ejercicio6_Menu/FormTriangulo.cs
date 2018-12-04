@@ -35,5 +35,20 @@ namespace Ejercicio6_Menu
             }
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            textBox2.Enabled = true;
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            textBox3.Enabled = true;
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            button1.Enabled = true;
+        }
     }
 }
