@@ -73,7 +73,13 @@ namespace Ejercicio6_Menu
 
         private void triánguloEquiláteroToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            FormTriangulo formTriangulo = new FormTriangulo();
 
+            formTriangulo.ShowDialog();
+
+            Show();
+
+            formTriangulo.Close();
         }
     }
 }
