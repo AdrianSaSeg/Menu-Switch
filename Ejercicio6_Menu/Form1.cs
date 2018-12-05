@@ -81,5 +81,12 @@ namespace Ejercicio6_Menu
 
             formTriangulo.Close();
         }
+
+        private void sobrecargaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormSobrecarga formSobrecarga = new FormSobrecarga();
+
+            formSobrecarga.ShowDialog();
+        }
     }
 }

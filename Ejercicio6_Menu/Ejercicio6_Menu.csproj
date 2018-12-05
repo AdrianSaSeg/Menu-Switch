@@ -76,6 +76,12 @@
     <Compile Include="FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormSobrecarga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSobrecarga.Designer.cs">
+      <DependentUpon>FormSobrecarga.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSuma.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSobrecarga.resx">
+      <DependentUpon>FormSobrecarga.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSuma.resx">
       <DependentUpon>FormSuma.cs</DependentUpon>

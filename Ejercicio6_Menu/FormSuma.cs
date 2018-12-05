@@ -22,6 +22,7 @@ namespace Ejercicio6_Menu
         {
             int numero1 = int.Parse(textBox1.Text);
             int numero2 = int.Parse(textBox2.Text);
+            
             //Mostramos el resultado de la función suma mediante una ventana
             MessageBox.Show("La suma de los números es: " + Convert.ToString(Funciones.suma(numero1, numero2)), "Suma");
         }
