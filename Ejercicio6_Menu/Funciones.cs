@@ -43,9 +43,9 @@ namespace Ejercicio6_Menu
             return x + y;
         }
 
-        public static int suma(int a, int b, int c = 0, int d = 0, int e = 0)
+        public static int SumaOpcional(int a, int b, int c = 0, int d = 0, int e = 0)
         {
-            return a + b + c + d + e;
+            return (a + b + c + d + e);
         }
         public static int MayorMenor(int x, int y)
         {
@@ -112,5 +112,70 @@ namespace Ejercicio6_Menu
         {
             MessageBox.Show("Ejecutada la sobrecarga Foo(" + text1 + ", " + text2 + " y " + text3 + ")");
         }
+
+        public static void ActivarDesactivarBotones(int opcion, Button b1, Label l1, Label l2, Label l3, Label l4, Label l5, TextBox t1, TextBox t2, TextBox t3, TextBox t4, TextBox t5)
+        {
+            switch (opcion)
+            {
+                case 2: // muestro sólo label/texbox para dos parámetros
+                    b1.Enabled = true;
+                    l1.Enabled = true;
+                    l2.Enabled = true;
+                    t1.Enabled = true;
+                    t2.Enabled = true;
+
+                    break;
+                case 3: // muestro sólo label/texbox para tres parámetros
+                    b1.Enabled = true;
+                    l1.Enabled = true;
+                    l2.Enabled = true;
+                    l3.Enabled = true;
+                    t1.Enabled = true;
+                    t2.Enabled = true;
+                    t3.Enabled = true;
+                    break;
+                case 4: // muestro sólo label/texbox para cuatro parámetros
+                    b1.Enabled = true;
+                    l1.Enabled = true;
+                    l2.Enabled = true;
+                    l3.Enabled = true;
+                    l4.Enabled = true;
+                    t1.Enabled = true;
+                    t2.Enabled = true;
+                    t3.Enabled = true;
+                    t4.Enabled = true;
+                    break;
+                case 5: // muestro sólo label/texbox para cinco parámetros
+                    b1.Enabled = true;
+                    l1.Enabled = true;
+                    l2.Enabled = true;
+                    l3.Enabled = true;
+                    l4.Enabled = true;
+                    l5.Enabled = true;
+                    t1.Enabled = true;
+                    t2.Enabled = true;
+                    t3.Enabled = true;
+                    t4.Enabled = true;
+                    t5.Enabled = true;
+                    break;
+            }
+        }
+
+        public static void DesactivarBotones(Boolean opcion, Button b1, Label [] l, TextBox [] t)
+        {
+            // pongo todos los elementos activos
+            b1.Enabled = opcion;
+            //activar/desactivar label:
+            foreach (var item in l)
+            {
+                item.Enabled = opcion;
+            }
+            //activar/desactivar textbox:
+            foreach (var item in t)
+            {
+                item.Enabled = opcion;
+            }
+        }
+
     }
 }

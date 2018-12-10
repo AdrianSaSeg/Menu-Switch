@@ -88,5 +88,12 @@ namespace Ejercicio6_Menu
 
             formSobrecarga.ShowDialog();
         }
+
+        private void parámetrosOpcionalesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormParametrosOpcionales formParametrosOpcionales = new FormParametrosOpcionales();
+
+            formParametrosOpcionales.ShowDialog();
+        }
     }
 }

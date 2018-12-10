@@ -76,6 +76,12 @@
     <Compile Include="FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormParametrosOpcionales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormParametrosOpcionales.Designer.cs">
+      <DependentUpon>FormParametrosOpcionales.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSobrecarga.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +123,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormParametrosOpcionales.resx">
+      <DependentUpon>FormParametrosOpcionales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSobrecarga.resx">
       <DependentUpon>FormSobrecarga.cs</DependentUpon>

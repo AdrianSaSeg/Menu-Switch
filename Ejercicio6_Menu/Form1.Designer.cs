@@ -39,6 +39,7 @@
             this.cálculoVolúmenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.triánguloEquiláteroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sobrecargaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.parámetrosOpcionalesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -84,7 +85,8 @@
             this.toolStripMenuItem12,
             this.cálculoVolúmenToolStripMenuItem,
             this.triánguloEquiláteroToolStripMenuItem,
-            this.sobrecargaToolStripMenuItem});
+            this.sobrecargaToolStripMenuItem,
+            this.parámetrosOpcionalesToolStripMenuItem});
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
             this.toolStripMenuItem5.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem5.Text = "Funciones";
@@ -131,6 +133,13 @@
             this.sobrecargaToolStripMenuItem.Text = "Sobrecarga";
             this.sobrecargaToolStripMenuItem.Click += new System.EventHandler(this.sobrecargaToolStripMenuItem_Click);
             // 
+            // parámetrosOpcionalesToolStripMenuItem
+            // 
+            this.parámetrosOpcionalesToolStripMenuItem.Name = "parámetrosOpcionalesToolStripMenuItem";
+            this.parámetrosOpcionalesToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.parámetrosOpcionalesToolStripMenuItem.Text = "Parámetros opcionales";
+            this.parámetrosOpcionalesToolStripMenuItem.Click += new System.EventHandler(this.parámetrosOpcionalesToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -161,6 +170,7 @@
         private System.Windows.Forms.ToolStripMenuItem cálculoVolúmenToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem triánguloEquiláteroToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sobrecargaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem parámetrosOpcionalesToolStripMenuItem;
     }
 }
 
